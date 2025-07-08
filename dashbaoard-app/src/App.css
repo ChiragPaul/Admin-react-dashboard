@@ -112,3 +112,8 @@ button {
     font-size: 14px !important;
   }
 }
+
+.app {
+  display : flex;
+  min-height : 100vh 
+}

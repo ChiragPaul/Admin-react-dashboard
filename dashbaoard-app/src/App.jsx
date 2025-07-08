@@ -1,11 +1,14 @@
 import "./App.css";
+import Content from "./layout/content/Content";
+import Sidebar from "./layout/Sidebar/Sidebar";
 
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
     <>
-      <div className="layout"></div>
+      <div className="app">
+        <Sidebar />
+        <Content />
+      </div>
     </>
   );
 }
